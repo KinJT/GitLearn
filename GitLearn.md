@@ -32,4 +32,11 @@ in git **HEAD** represents the current version, the last version is **HEAD^**, t
  
 we use **git dif HEAD -- XXX** to see the difference between version in workstation and the latest version in **stage**
  
+we use **git checkout -- file** to discard revision in workstation
+
+we use **git reset HEAD file** to discard revision in **stage** which not be commited yet
+
+- if we have commit the revision, we should use  **version roll back** 
+
+	-  if we have push to the remote repository, no way to deal with the record..
  
